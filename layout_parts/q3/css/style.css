@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+.q3-table,th,td{
+  table-layout: fixed;
+  margin: 0 auto;
+  width: 100%;
+  border: solid #dedede 1px;
+}
+.left,.top{
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color:#fff;
+}
+.even{
+  background-color: #ecf1f2;
+}
+th{
+  padding: 10px 0;
+}
+td{
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  padding:10px;
+}
+.lastLine{
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */
