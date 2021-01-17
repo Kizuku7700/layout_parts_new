@@ -2,31 +2,37 @@
 
 /* 回答はここに書いてね */
 
-.q3-table,th,td{
+.q3-table,th,td {
   table-layout: fixed;
-  margin: 0 auto;
   width: 100%;
+}
+.q3-table th,.q3-table td{
   border: solid #dedede 1px;
 }
-.left,.top{
+
+.q3-table tr th,.q3-table tr td:first-child {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color:#fff;
 }
-.even{
+
+.q3-table tr:nth-child(odd){
   background-color: #ecf1f2;
 }
-th{
+
+.q3-table th {
   padding: 10px 0;
 }
-td{
+
+.q3-table td {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
   padding:10px;
 }
-.lastLine{
+
+.q3-table tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
